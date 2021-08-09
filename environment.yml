@@ -1,0 +1,24 @@
+name: santak-server
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - opencv
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - fonttools
+  - nb_conda
+  - luigi
+  - tqdm
+  - flask
+  - black 
+  - pylint
+  - pytest
+  - pillow
+  - pip
+  - pip:
+    - ray
